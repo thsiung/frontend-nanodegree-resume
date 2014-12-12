@@ -88,11 +88,11 @@ a {
 
 #skillsH3 {
   color: #F5AE23;
-  display: none;
+//  display: none;
 }
 
 #skills {
-  display: none;
+//  display: inline-block;
 }
 
 .orange {
@@ -216,4 +216,11 @@ span {
   .biopic {
     display: block;
   }
+}
+
+.info {
+	width:200px;
+	height:50px;
+	overflow-x:hidden;
+	overflow-y:hidden
 }
