@@ -1,3 +1,16 @@
+// This object bio contains the following information:
+// name : string
+// role : string
+// contacts : array of objects with
+//     mobile: string
+//      email: string 
+//      github: string
+//      twitter: string 
+//      location: string
+// welcomeMessage: string 
+// skills: array of strings
+// biopic: url
+// display: function
 
 var bio = {
 	"name" : "John Smiths",
@@ -70,6 +83,15 @@ var bio = {
 bio.displayBio();
 bio.displayFooter();
 
+// work contains
+//
+// jobs: array of objects with
+//     employer: string 
+//     title: string 
+//     location: string 
+//     dates: string (works with a hyphen between them)
+//     description: string 
+// display: function
 
 var work = {
 	"jobs": [
@@ -109,7 +131,20 @@ var work = {
 
 work.displayWork();
 
-
+// education contains:
+// schools: array of objects with
+//     name: string
+//     location: string
+//     degree: string
+//     majors: array of strings
+//     dates: integer (graduation date)
+//     url: string
+// onlineCourses: array with
+//     title: string
+//     school: string
+//     date: integer (date finished)
+//     url: string
+// display: function
 
 var education = {
 	"schools": [
@@ -184,6 +219,15 @@ var education = {
 }
 
 education.displayEducation();
+
+
+//projects contains:
+// projects: array of objects with
+//      title: string 
+//      dates: string (works with a hyphen between them)
+//      description: string
+//      images: array with string urls
+// display: function
 
 var projects = {
 	"projects": [

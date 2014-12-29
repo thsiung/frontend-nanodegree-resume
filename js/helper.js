@@ -248,6 +248,8 @@ window.addEventListener('resize', function(e) {
   map.fitBounds(mapBounds);
 });
 
+
+// This is a helper function which will change name such as John Smiths to John SMITHS
 function inName(name) {
 	var _name = name.split(" ");
 	console.log(_name);
